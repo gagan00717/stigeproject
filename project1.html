@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel logging page</title>
+    <link rel="stylesheet" href="project1.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:ital,wght@1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Travel</h2>
+            <div class="toggle "></div>
+
+        </header>
+        <video src="image/production ID_4524598.mp4" width="100%" muted loop autoplay></video>
+        <div class=" overlay"></div>
+        <div class="text">
+            <h2>Never stop</h2>
+            <h3>Exploring The world</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto vitae est sapiente ipsum ipsa
+                mollitia.
+                Necessitatibus corporis quos cum sed velit quia. Corrupti earum incidunt autem commodi reiciendis
+                rerum
+                at!</p>
+            <a href="#">Explore</a>
+
+        </div>
+
+        <ul class="social">
+            <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+    </section>
+
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Name</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Bing</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+    </div>
+
+    <script>
+        const showcase = document.querySelector('.showcase');
+        const menuToggle = document.querySelector('.toggle');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+</body>
+
+</html>
